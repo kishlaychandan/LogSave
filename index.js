@@ -4,7 +4,6 @@ import winston from "winston";
 
 const app = express();
 const port = process.env.PORT || 3000;
-
 // Create a Winston logger instance for detailed logging
 const logger = winston.createLogger({
     level: "info",
